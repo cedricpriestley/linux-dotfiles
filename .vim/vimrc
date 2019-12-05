@@ -54,6 +54,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   "autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   "vim +'PlugInstall --sync' +qa
+  vim +PlugInstall +qall
 endif
 
 " Specify a directory for plugins
@@ -66,10 +67,21 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-plug'
 Plug 'mcchrish/nnn.vim'
 Plug 'sjl/badwolf'
+Plug 'tpope/vim-surround'
+Plug 'chrisbra/vim-commentary'
+Plug 'kana/vim-surround'
+Plug 'tomasiser/vim-code-dark'
+
+" source /root/dotfiles/aliases.sh
+" source /root/dotfiles/envars.sh
 
 " Initialize plugin system
 call plug#end()
 
-colorscheme badwolf         " awesome colorscheme
+" let g:codedark_conservative = 1
+" If your terminal supports 256 colors
+" set t_Co=256
+" set t_ut=
+colorscheme codedark         " awesome colorscheme
 
 syntax on
