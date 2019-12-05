@@ -14,9 +14,9 @@ git clone https://github.com/cedricpriestley/linux-dotfiles.git dotfiles
 ln -s $HOME/dotfiles/.termux $HOME/.termux
 ln -s $HOME/dotfiles/.vim $HOME/.vim
  
-echo "source $HOME/dotfiles/aliases.sh" >> $HOME/.zshr
+echo "source $HOME/dotfiles/aliases.sh" >> $HOME/.zshrc
  
-echo "source $HOME/dotfiles/envars.sh" >> $HOME/.zshr
+echo "source $HOME/dotfiles/envars.sh" >> $HOME/.zshrc
  
 chmod u+x $HOME/dotfiles//scripts/install.sh
  
