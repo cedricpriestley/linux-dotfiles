@@ -13,7 +13,7 @@ git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
 git clone https://github.com/cedricpriestley/linux-dotfiles.git $HOME/dotfiles
 
 mv $HOME/.termux/* $HOME/dotfiles/.termux/
-rm $HOME/.termux
+rm -fr $HOME/.termux
 ln -s $HOME/dotfiles/.termux $HOME/.termux
 ln -s $HOME/dotfiles/.vim $HOME/.vim
 
