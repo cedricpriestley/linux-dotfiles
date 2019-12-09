@@ -6,9 +6,7 @@ pkg i bat fzf git nodejs-lts silversearcher-ag man proot nnn termux-api tmux vim
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions
-
-git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 git clone https://github.com/cedricpriestley/linux-dotfiles.git $HOME/dotfiles
 
