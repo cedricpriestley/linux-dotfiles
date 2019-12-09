@@ -1,3 +1,6 @@
 .vim/autoload
 .vim/plugged
 .termux/shell
+*~
+.*.swp
+.*.swo
