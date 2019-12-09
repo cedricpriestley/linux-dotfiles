@@ -71,9 +71,7 @@ Plug 'tpope/vim-surround'
 Plug 'chrisbra/vim-commentary'
 Plug 'kana/vim-surround'
 Plug 'tomasiser/vim-code-dark'
-
-" source /root/dotfiles/aliases.sh
-" source /root/dotfiles/envars.sh
+Plug 'tpope/vim-sensible'
 
 " Initialize plugin system
 call plug#end()
@@ -85,3 +83,5 @@ call plug#end()
 colorscheme codedark         " awesome colorscheme
 
 syntax on
+
+set iskeyword+=-
