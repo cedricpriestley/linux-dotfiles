@@ -2,7 +2,7 @@
 
 pkg up -y
 
-pkg i bat fzf git nodejs-lts silversearcher-ag man proot nnn termux-api tmux vim openssh -y 
+pkg i bat fzf git nodejs-lts silversearcher-ag man proot nnn termux-api tmux vim nano openssh -y 
 
 git clone https://github.com/cedricpriestley/linux-dotfiles.git $HOME/dotfiles
 
