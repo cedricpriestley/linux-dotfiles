@@ -72,6 +72,8 @@ Plug 'chrisbra/vim-commentary'
 Plug 'kana/vim-surround'
 Plug 'tomasiser/vim-code-dark'
 Plug 'tpope/vim-sensible'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -80,8 +82,10 @@ call plug#end()
 " If your terminal supports 256 colors
 " set t_Co=256
 " set t_ut=
-colorscheme codedark         " awesome colorscheme
+colorscheme badwolf         " awesome colorscheme
 
 syntax on
 
 set iskeyword+=-
+
+set rnu
