@@ -16,3 +16,5 @@ alias n='nnn'
 alias rm='rm -iv'
 alias wget='wget -c'
 alias grep='grep --color=auto'
+
+EDITOR=vim
