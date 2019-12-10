@@ -90,3 +90,5 @@ set iskeyword+=-
 
 set relativenumber
 
+let g:netrw_banner = 0
+
