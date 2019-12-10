@@ -88,4 +88,5 @@ syntax on
 
 set iskeyword+=-
 
-set rnu
+set relativenumber
+
